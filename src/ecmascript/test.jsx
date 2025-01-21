@@ -9,9 +9,7 @@ let findLongestWord=words =>{
     })
     //Retourner le mot le plus long
     return newArr.reduce((acc,cur)=>{
-        return(acc.length<cur.length)?acc:cur;
-    })
+        return(acc.longueur>cur.longueur)?acc:cur;
+    });
 };
-//Tester
-let words=["Bonjour","Hello"];
-console.log(findLongestWord(words));
+export default findLongestWord;
