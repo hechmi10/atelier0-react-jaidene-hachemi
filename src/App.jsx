@@ -8,7 +8,7 @@ let tab = [];
 let lastID = 0;
 const words=["Bonjour","Hello"];
 const input=[["a","b","c"],["c","d","f"],["d","f","g"]];
-const students=[{name:'John',id:123,mark:98},{name:'Baba',id:101,mark:23},{name:'John',id:200,mark:45},{name:'Wick',id:115,mark:75}]
+const students=[{name:'John',id:123,marks:98},{name:'Baba',id:101,marks:23},{name:'John',id:200,marks:45},{name:'Wick',id:115,marks:75}]
 function App() {
   tab.push({ id: ++lastID, name: "Alice", age: 25 });
   tab.push({ id: ++lastID, name: "Bob", age: 30 });
